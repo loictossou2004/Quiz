@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background:#2f3542;
+}
+
+.begin{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.begin .text{
+    color: #fff;
+    font-size: 50px;
+}
+
+.begin .text span, .begin i{
+    color: orange;
+}
+
+.start span{
+    color: #2f3542;
+    transition: all 0.4s ease;
+}
+
+.start a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.start{
+    color: lightgray;
+    font-size: 20px;
+    background: orange;
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.start:hover{
+    background: none;
+}
+
+.start:hover span{
+    color: orange;
+}
